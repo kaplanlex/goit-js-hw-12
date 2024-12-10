@@ -45,9 +45,26 @@ form input[type="text"]:focus {
     border-color: #6c63ff;
 }
 
-form button {
+ .button-one {
     border-radius: 8px;
     padding: 8px 16px;
+    height: 40px;
+    background-color: #4e75ff;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-two{
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 15px;
     height: 40px;
     background-color: #4e75ff;
     color: #fff;
